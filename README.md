@@ -64,6 +64,10 @@ chown -R www-data:www-data /var/lib/pgadmin4/
 sudo chown -R www-data:www-data /var/log/pgadmin4/
 ```
 
+```
+pip install --upgrade werkzeug==0.16.1
+```
+
 ### Create script to start pgadmin:
 ```
 vi /usr/local/bin/pgadmin.sh
